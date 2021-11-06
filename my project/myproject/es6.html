@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //function addition(x,y){
+         //   return x+y
+       // }
+       // anonymus function
+       // let addition=function(x,y){ 
+          //  return x+y
+       // }
+       // arrow function
+    //    let addition=(x,y) =>{
+    //        return x+y}
+    //     document.writeln(addition(3,4))
+
+    //destructuring of objects
+
+    let employee={
+        name:"niha", 
+        age:19   
+
+    }
+    //let  name=employee.name
+    let {name,age}=employee
+    console.log(name)
+    console.log(age)
+    //destructuring of array
+    // let employees=["kalyan","niha"]
+    // let [emp1,emp2,emp3]=employees
+    // console.log(emp2)
+
+    //spread operator
+    let [emp1,...remainList]=employees
+     console.log(emp1)
+     console.log(remainList)
+
+
+    </script>
+</body>
+</html>
